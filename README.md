@@ -120,7 +120,7 @@ This project is licensed under the MIT License.
 
 3. **Clone the HashGuard Repository:**
    ```bash
-   git clone https://github.com/yourusername/HashGuard.git
+   git clone https://github.com/Muktansh02/HashGuard.git
    cd HashGuard
    ```
 
