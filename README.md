@@ -78,7 +78,7 @@ chmod +x hashguard.sh
 6. It sends email notifications for successful verifications and discrepancies.
 
 
-Events log file (example:
+Events log file (example):
 ![Screenshot 2024-05-22 163500](https://github.com/Muktansh02/HashGuard/assets/124135961/ddc675e1-f1d6-4ed8-8d95-6ad655afd893)
 
 File detection mail (example):
