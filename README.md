@@ -31,43 +31,6 @@ These features make the Raspberry Pi an excellent choice for a dedicated file in
 - `msmtp` for sending email notifications
 - Access to an email account for notifications (configured for Outlook in this example)
 
-## Installation
-
-1. **Set up your Raspberry Pi:**
-   - Install a Linux-based OS (e.g., Raspbian).
-   - Ensure your Raspberry Pi is connected to the internet.
-
-2. **Install `inotify-tools` and `msmtp`:**
-   ```bash
-   sudo apt-get update
-   sudo apt-get install inotify-tools msmtp
-   ```
-
-3. **Clone this repository:**
-   ```bash
-   git clone https://github.com/yourusername/HashGuard.git
-   cd HashGuard
-   ```
-
-4. **Configure `msmtp` for email notifications:** Edit `~/.msmtprc` with your email settings.
-
-## Configuration
-
-Edit the script variables in `hashguard.sh` to suit your needs:
-- `monitor_dir`: The directory to monitor (e.g., `/home/yourusername/Downloads`).
-- `log_file`: The file where logs will be stored.
-- `expected_hash_file`: The file storing expected hashes.
-- `recipient_email`: Your email for receiving notifications.
-- `subject`: The subject line for your email notifications.
-
-## Usage
-
-Make the script executable and run it:
-```bash
-chmod +x hashguard.sh
-./hashguard.sh
-```
-
 ## How It Works
 
 1. The script uses `inotifywait` to monitor the specified directory for `close_write` events.
