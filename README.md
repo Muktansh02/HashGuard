@@ -42,6 +42,16 @@ How It Works
 - It logs each action with detailed information, including timestamps, file sizes, and user information.
 - It sends email notifications for successful verifications and discrepancies.
 
+Events log file (example:
+![Screenshot 2024-05-22 163500](https://github.com/Muktansh02/HashGuard/assets/124135961/ddc675e1-f1d6-4ed8-8d95-6ad655afd893)
+
+File detection mail (example):
+![Screenshot 2024-05-22 174211](https://github.com/Muktansh02/HashGuard/assets/124135961/c36ab77a-7d05-44db-999e-4c211b365914)
+
+File verification mail (example):
+![Screenshot 2024-05-22 174228](https://github.com/Muktansh02/HashGuard/assets/124135961/a3686fc7-28a0-4f54-8d99-35a88d5dce46)
+
+
 Future Plans
 
 - Implement a web interface for real-time monitoring.
