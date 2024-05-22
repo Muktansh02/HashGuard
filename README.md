@@ -47,6 +47,7 @@ Future Plans
 - Implement a web interface for real-time monitoring.
 - Add support for additional hash algorithms.
 - Integrate with cloud storage solutions for remote monitoring.
+  
 
 Detailed Instructions to Set Up HashGuard on a Raspberry Pi
 
@@ -65,6 +66,8 @@ sudo apt-get install inotify-tools msmtp
 
 
 Clone the HashGuard Repository:
+![Screenshot 2024-05-22 163500](https://github.com/Muktansh02/HashGuard/assets/124135961/132b7a16-7689-4a9d-82b2-88c8710a0722)
+![Screenshot 2024-05-22 163500](https://github.com/Muktansh02/HashGuard/assets/124135961/ffa1c270-c689-454b-8589-86d49ad42fff)
 
 git clone https://github.com/yourusername/HashGuard.git
 cd HashGuard
